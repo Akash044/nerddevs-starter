@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <ul
+        id="list"
+        style="
+          max-width: 500px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          gap: 10px;
+          margin: auto;
+        "
+      >
+        <li style="padding: 10px; border: 2px solid red; border-radius: 50px">
+          1
+        </li>
+        <li style="padding: 10px; border: 2px solid red; border-radius: 50px">
+          2
+        </li>
+        <li style="padding: 10px; border: 2px solid red; border-radius: 50px">
+          3
+        </li>
+        <li style="padding: 10px; border: 2px solid red; border-radius: 50px">
+          4
+        </li>
+        <li style="padding: 10px; border: 2px solid red; border-radius: 50px">
+          5
+        </li>
+        <li style="padding: 10px; border: 2px solid red; border-radius: 50px">
+          6
+        </li>
+        <li style="padding: 10px; border: 2px solid red; border-radius: 50px">
+          7
+        </li>
+        <li style="padding: 10px; border: 2px solid red; border-radius: 50px">
+          8
+        </li>
+        <li style="padding: 10px; border: 2px solid red; border-radius: 50px">
+          9
+        </li>
+        <li style="padding: 10px; border: 2px solid red; border-radius: 50px">
+          10
+        </li>
+      </ul>
+    </main>
+    <script>
+      const list = document.getElementById("list");
+      list.addEventListener("mouseover", (event) => {
+        if (event.target !== list) {
+          event.target.style.visibility = "hidden";
+        }
+      });
+    </script>
+  </body>
+</html>
