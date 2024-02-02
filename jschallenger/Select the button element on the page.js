@@ -1,4 +1,4 @@
-//https://jschallenger.com/javascript-dom-exercises/dom-selector-methods
+//https://jschallenger.com/javascript-dom-exercises/dom-selector-methods/javascript-select-button
 
 const buttonElem = document.getElementById("button");
 buttonElem.addEventListener("click", () => {
