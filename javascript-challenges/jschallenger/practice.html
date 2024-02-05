@@ -53,6 +53,7 @@
     <script>
       const list = document.getElementById("list");
       list.addEventListener("mouseover", (event) => {
+        //console.log(event.target);
         if (event.target !== list) {
           event.target.style.visibility = "hidden";
         }
